@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #E8DAB2;
+    font-family: 'Raleway', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 100.0rem;
+}
+
+.container h3{
+    font-size: 2.6rem;
+}
+
+.container h1{
+    font-size: 5.5rem;
+}
+
+.dog img{
+    width: 37.0rem;
+    height: 19.2rem;
+
+}
+
+.dog2 img{
+    width: 67.0rem;
+    height: 19.2rem;
+    
+}
+
+main{
+    width: 80.0rem;
+    background-color: white;
+
+    margin: 0 auto;
+
+    align-content: center;
+    border-radius: 8px;
+    padding: 3.4rem 2.4rem 1.0rem;
+}
+
+main h2{
+    font-size: 3.0rem;
+   
+}
+
+main ul{
+    margin-left: 2.4rem;
+    margin-bottom: 2.4rem;
+    font-size: 1.4rem;
+}
+
+footer{
+    width: 80.0rem;
+    align-content: center;
+    margin: 0 auto;
+
+    justify-content: end;
+    display: flex;
+    background-color: black;
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p{
+    color: white;
+}
+
+span{
+    color: blue;
+}
+
+p{
+    line-height: 2.4rem;
+    font-size: 1.5rem;
+
+    margin-bottom: 2.4rem;
+}
